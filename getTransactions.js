@@ -7,7 +7,7 @@ const addressFrom = 'rJpr9nKV7aikyFdUtPvuumAHYXvNJady1e';
 const prodServer = 'wss://s1.ripple.com:443';
 const testServer = 'wss://s.altnet.rippletest.net:51233';
 
-const addressTo = 'rDDFfub1aJaqsrztpHcoaJPBYg1eQZxKzs';//(secret: shaQdo3WKSobVbqCCWwEagViALWXz)
+const addressTo = 'rDDFfub1aJaqsrztpHcoaJPBYg1eQZxKzs';
 
 const api = new RippleAPI({server: testServer});
 const instructions = {maxLedgerVersionOffset: 5};
